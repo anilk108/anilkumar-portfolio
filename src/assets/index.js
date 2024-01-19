@@ -23,20 +23,20 @@ import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
 
-import css from './tech/css.png';
+import css from './tech/java.png';
 import docker from './tech/docker.png';
-import figma from './tech/figma.png';
+import figma from './tech/aws.png';
 import git from './tech/git.png';
-import html from './tech/html.png';
+import html from './tech/boot.png';
 import javascript from './tech/javascript.png';
 import nodejs from './tech/nodejs.png';
 import reactjs from './tech/reactjs.png';
-import redux from './tech/redux.png';
-import tailwind from './tech/tailwind.png';
+import redux from './tech/kube.png';
+import tailwind from './tech/sql.png';
 import typescript from './tech/typescript.png';
-import graphql from './tech/graphql.png';
+import graphql from './tech/kotlin.png';
 import postgresql from './tech/postgresql.png';
-import rubyrails from './tech/rubyrails.png';
+import rubyrails from './tech/datadog.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
