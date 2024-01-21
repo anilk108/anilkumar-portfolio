@@ -29,12 +29,18 @@ jobs:
     - name: Build React App
       run: npm install && npm run build
 
+    - name: Configure AWS Credentials
+      run: aws configure set aws_access_key_id ${{ secrets.AWS_ACCESS_KEY }} && aws configure set aws_secret_access_key ${{ secrets.AWS_SECRET_KEY }} && aws configure set region us-east-1
+
     - name: Deploy to AWS S3
-      uses: aws-actions/aws-cli@v2
-      with:
-        args: |
-          s3 sync build/ s3://portfolio-app-ak
-          aws cloudfront create-invalidation --distribution-id E1CNQ8HCYLNWW3 --paths "/*"
-      env:
-        AWS_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY }}
-        AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_KEY }}
+      run: aws s3 sync build/ s3://portfolio-app-ak
+
+#    - name: Deploy to AWS S3
+#      uses: aws-actions/aws-cli@v2
+#      with:
+#        args: |
+#          s3 sync build/ s3://portfolio-app-ak
+#          aws cloudfront create-invalidation --distribution-id E1CNQ8HCYLNWW3 --paths "/*"
+#      env:
+#        AWS_ACCESS_KEY: ${{ secrets.AWS_ACCESS_KEY }}
+#        AWS_SECRET_KEY: ${{ secrets.AWS_SECRET_KEY }}
