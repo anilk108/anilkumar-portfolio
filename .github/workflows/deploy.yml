@@ -35,6 +35,9 @@ jobs:
     - name: Deploy to AWS S3
       run: aws s3 sync build/ s3://portfolio-app-ak
 
+    - name: Invalidate CloudFront Cache
+      run: aws cloudfront create-invalidation --distribution-id E1CNQ8HCYLNWW3 --paths "/*"
+
 #    - name: Deploy to AWS S3
 #      uses: aws-actions/aws-cli@v2
 #      with:
