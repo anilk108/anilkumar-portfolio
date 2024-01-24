@@ -33,7 +33,7 @@ jobs:
       run: aws configure set aws_access_key_id ${{ secrets.AWS_ACCESS_KEY }} && aws configure set aws_secret_access_key ${{ secrets.AWS_SECRET_KEY }} && aws configure set region us-east-1
 
     - name: Deploy to AWS S3
-      run: aws s3 sync build/ s3://portfolio-app-ak
+      run: aws s3 sync dist/ s3://portfolio-app-ak
 
     - name: Invalidate CloudFront Cache
       run: aws cloudfront create-invalidation --distribution-id E1CNQ8HCYLNWW3 --paths "/*"
