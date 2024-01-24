@@ -11,6 +11,8 @@ I created this portfolio to use as my own but ended up doing something else enti
 
 ## Live Demo
 
+You can access live demo via this link: `https://kumaranil.us/`
+
 ## Getting Started
 
 To get started with this portfolio template, follow these simple steps:
