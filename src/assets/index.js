@@ -7,7 +7,6 @@ import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
 import shaq from './personal/ak.png';
-import resumeDoc from './resume/resume.pdf';
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -59,7 +58,6 @@ export {
   logo,
   logotext,
   shaq,
-  resumeDoc,
   backend,
   ux,
   frontend,
