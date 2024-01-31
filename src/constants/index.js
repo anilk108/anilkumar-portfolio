@@ -166,8 +166,8 @@ const projects = [
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    repo: 'https://github.com/LongNH50/OnlineRetailSystem',
+    demo: 'https://github.com/LongNH50/OnlineRetailSystem',
   },
   {
     id: 'project-2',
@@ -189,8 +189,8 @@ const projects = [
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    repo: 'https://github.com/LongNH50/OnlineRetailSystem',
+    demo: 'https://github.com/LongNH50/OnlineRetailSystem',
   },
   {
     id: 'project-3',
@@ -211,8 +211,8 @@ const projects = [
       },
     ],
     image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    repo: 'https://github.com/LongNH50/OnlineRetailSystem',
+    demo: 'https://github.com/LongNH50/OnlineRetailSystem',
   },
   {
     id: 'project-4',
@@ -233,8 +233,8 @@ const projects = [
       },
     ],
     image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    repo: 'https://github.com/LongNH50/OnlineRetailSystem',
+    demo: 'https://github.com/LongNH50/OnlineRetailSystem',
   },
   {
     id: 'project-5',
@@ -256,8 +256,8 @@ const projects = [
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    repo: 'https://github.com/LongNH50/OnlineRetailSystem',
+    demo: 'https://github.com/LongNH50/OnlineRetailSystem',
   },
 ];
 
