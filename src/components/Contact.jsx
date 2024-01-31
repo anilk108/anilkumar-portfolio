@@ -11,6 +11,7 @@ const Contact = () => {
   const [form, setForm] = useState({
     name: '',
     email: '',
+    subject:'',
     message: '',
   });
   const [loading, setLoading] = useState(false);
@@ -45,6 +46,7 @@ const Contact = () => {
         setForm({
           name: '',
           email: '',
+          subject:'',
           message: '',
         });
       },
@@ -92,6 +94,20 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email?"
+              className="bg-eerieBlack py-4 px-6
+              placeholder:text-taupe
+              text-timberWolf rounded-lg outline-none
+              border-none font-medium"
+            />
+          </label>
+          <label className="flex flex-col">
+            <span className="text-timberWolf font-medium mb-4">Message Title</span>
+            <input
+              type="subject"
+              name="subject"
+              value={form.subject}
+              onChange={handleChange}
+              placeholder="Message Title"
               className="bg-eerieBlack py-4 px-6
               placeholder:text-taupe
               text-timberWolf rounded-lg outline-none
