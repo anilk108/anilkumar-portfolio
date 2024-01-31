@@ -7,6 +7,8 @@ import logo from './logo/logo-black.png';
 import logotext from './logo/logo-text-black.png';
 
 import shaq from './personal/ak.png';
+import miu from './backgrounds/miu.png'
+import fast from './backgrounds/fast.jpg'
 
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
@@ -96,4 +98,6 @@ export {
   dcc,
   kelhel,
   microverse,
+  miu,
+  fast
 };

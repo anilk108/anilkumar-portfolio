@@ -27,6 +27,8 @@ import {
   dcc,
   kelhel,
   microverse,
+  fast,
+  miu
 } from '../assets';
 
 export const navLinks = [
@@ -37,6 +39,10 @@ export const navLinks = [
   {
     id: 'projects',
     title: 'Projects',
+  },
+  {
+    id: 'education',
+    title: 'Education',
   },
   {
     id: 'contact',
@@ -261,4 +267,20 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+const education = [
+  {
+    title: 'Masters of Science in Computer Science',
+    institute: 'Maharishi International University – Iowa, USA',
+    icon: miu,
+    date: 'Nov 2022 - In Progress (Via Distance Education)',
+    grade: 'CGPA: 3.81'
+  },  {
+    title: 'Bachelors Of Computer Science',
+    institute: 'National University of Computer and Emerging Sciences, Karachi, Pakistan',
+    icon: fast,
+    date: 'Aug 2015 - Jun 2019',
+    grade: 'CGPA: 3.06'
+  },
+]
+
+export { services, technologies, experiences, projects, education };
