@@ -13,6 +13,11 @@ I created this portfolio to use as my own but ended up doing something else enti
 
 You can access live demo via this link: `https://kumaranil.us/`
 
+## Project Architecture
+
+![Screenshot 2024-02-01 at 12 44 50 AM](https://github.com/anilk108/anilkumar-portfolio/assets/43748737/25d8a868-26f2-46d8-aeea-329dd791adfb)
+
+
 ## Getting Started
 
 To get started with this portfolio template, follow these simple steps:
