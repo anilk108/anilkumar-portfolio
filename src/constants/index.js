@@ -155,8 +155,8 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'ShopMe',
+    description: 'Online Retail System where user can buy listed products.',
     tags: [
       {
         name: 'react',
@@ -177,9 +177,9 @@ const projects = [
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'FastRecruit',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A plateform where coaches can recruit basketball players in the colleges.',
     tags: [
       {
         name: 'react',
@@ -195,12 +195,12 @@ const projects = [
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/LongNH50/OnlineRetailSystem',
-    demo: 'https://github.com/LongNH50/OnlineRetailSystem',
+    repo: 'https://fastmodelsports.com/pages/fastrecruit-pro',
+    demo: 'https://fastmodelsports.com/pages/fastrecruit-pro',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
+    name: 'Metalogics',
     description: 'This is a single-page calculator app built with React',
     tags: [
       {
@@ -222,8 +222,8 @@ const projects = [
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'FastDraw',
+    description: `This software used to draw the basketball games for their teams.`,
     tags: [
       {
         name: 'nextjs',
@@ -239,8 +239,8 @@ const projects = [
       },
     ],
     image: movie,
-    repo: 'https://github.com/LongNH50/OnlineRetailSystem',
-    demo: 'https://github.com/LongNH50/OnlineRetailSystem',
+    repo: 'https://fastmodelsports.com/products/fastdraw-play-diagramming-software',
+    demo: 'https://fastmodelsports.com/products/fastdraw-play-diagramming-software',
   },
   {
     id: 'project-5',
