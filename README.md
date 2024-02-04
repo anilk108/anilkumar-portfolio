@@ -28,7 +28,7 @@ Make sure you have node `16.0.0` or higher and npm `9.0.0` or higher installed.
 
 ### Setup
 ```
-git clone https://github.com/shaqdeff/Portfolio-Template.git
+git clone git@github.com:anilk108/anilkumar-portfolio.git
 ```
 
 - Once the files are on your machine, open the **Portfolio-Template** folder in [Visual Studio Code](https://code.visualstudio.com/download).
